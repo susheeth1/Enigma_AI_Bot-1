@@ -6,7 +6,9 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "asyncio>=3.4.3",
+    "einops>=0.8.1",
     "flask>=3.1.1",
+    "gradio-client>=1.10.4",
     "langchain>=0.3.26",
     "langchain-huggingface>=0.3.0",
     "mcp>=1.10.1",
@@ -19,6 +21,7 @@ dependencies = [
     "python-docx>=1.2.0",
     "python-dotenv>=1.1.1",
     "requests>=2.32.4",
+    "sentence-transformers>=5.0.0",
     "uuid>=1.30",
     "werkzeug>=3.1.3",
 ]
